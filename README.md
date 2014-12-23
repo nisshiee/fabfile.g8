@@ -14,10 +14,10 @@ fabfile.g8
 ブランチリスト
 ------------------------------------------------------------
 
-### vagrant-single
+### vagrant-single-mysql
 
-ローカルでのVagrantを使った仮想マシン構築を想定したブランチです。
+ローカルでのVagrantを使って、MySQLのみ1台構成のVMを構築します。
 
 ```
-$ g8 git@stash.nisshiee.org:7999/npp/fabfile.g8.git -b vagrant-single
+$ g8 nisshiee/fabfile -b vagrant-single-mysql
 ```
