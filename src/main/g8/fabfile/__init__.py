@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from fabric.api import task
 import env
 import common
