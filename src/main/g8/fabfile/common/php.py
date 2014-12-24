@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from fabric.api import *
 from fabric.contrib.files import *
 import nginx
